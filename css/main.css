@@ -1,0 +1,135 @@
+h1, h2, h3, h4, h5, h6, p, ul, li {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: no-repeat center top / cover;
+    background: url(../img/1.jpg);
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+html, body{height:100%;}
+ 
+/*шапка*/
+header {
+    height:100%; background: fixed url(../img/1.jpg) no-repeat 50% 0;
+}
+ 
+/*фиксированное плавающее меню*/
+#top_nav{
+    display: block;
+   bottom:0;
+   position: fixed;
+   z-index: 1000;
+   width:100%;
+   height:45px;
+}
+.logo {
+    display: block;
+    width: 20%;
+    margin: 0 auto;
+    padding-top: 420px;
+}
+
+.el {
+    font-family: 'Raleway';
+    color: #eeedf2;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.el:hover {
+    color: #dddcdf;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 12px;
+    margin: 0 auto;
+} 
+
+ul {
+    background-color: #242526;
+    margin-top: 415px;
+    padding: 10px 640px;   
+}
+
+h3 {
+    padding-top: 50px;
+    padding-bottom: 45px;
+    padding-left: 25px;
+    font-family: 'Raleway';
+    color: #242526;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.about_us_text {
+    padding: 10px 35px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+
+.about_members {
+    display: inline-block;
+    margin: 50px 0;
+}
+
+.about_us_text {
+    padding-top: 40px;
+    padding-right: 40px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.member {
+    display: block;
+    padding: 20px 20px;
+    margin: 0 auto;
+}
+
+h4 {
+    padding-top: 40px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    font-family: 'Raleway';
+    color: #242526;
+    font-size: 60px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#photos {
+    margin-top: 570px;
+}
+
+#ecscursion {
+    margin: 50px 0 0 0;
+    padding-bottom: 450px;
+    background-color: #00a99d;
+}
+
+.white {
+    color: white;
+}
+
+.sc-h {
+    font-family: "Raleway";
+    font-size: 15px;
+    margin-top: 50px;
+    margin-bottom: 170px;
+    color: white;
+}
+
+#school-history {
+    background-color: #000;
+}
